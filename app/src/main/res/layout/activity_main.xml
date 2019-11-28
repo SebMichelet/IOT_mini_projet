@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_local_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/local_txt"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/activity_main_lum_local_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminance_txt"
+        android:layout_below="@+id/activity_main_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_lum_local_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_lum_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_local_txt"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_temp_local_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_txt"
+        android:layout_below="@+id/activity_main_lum_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_temp_local_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_temp_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_lum_local_value"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_hum_local_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminance_txt"
+        android:layout_below="@+id/activity_main_temp_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_hum_local_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_hum_local_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_temp_local_value"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:id="@+id/activity_main_ext_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exterior_txt"
+        android:layout_below="@id/activity_main_hum_local_txt"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/activity_main_lum_ext_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminance_txt"
+        android:layout_below="@+id/activity_main_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_lum_ext_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_lum_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_ext_txt"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_temp_ext_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_txt"
+        android:layout_below="@+id/activity_main_lum_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_temp_ext_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_temp_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_lum_ext_value"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_hum_ext_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminance_txt"
+        android:layout_below="@+id/activity_main_temp_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_hum_ext_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_main_hum_ext_txt"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/activity_main_temp_ext_value"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

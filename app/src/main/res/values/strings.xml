@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IOT_mini_projet</string>
+    <string name="local_txt">--------------- Locals values ---------------</string>
+    <string name="temperature_txt">Temperature : </string>
+    <string name="humidity_txt">Humidity : </string>
+    <string name="luminance_txt">Luminance : </string>
+    <string name="exterior_txt">--------------- Exterior values ---------------</string>
+</resources>

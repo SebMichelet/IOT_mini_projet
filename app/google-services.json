@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "231193245420",
+    "firebase_url": "https://mini-projet-iot.firebaseio.com",
+    "project_id": "mini-projet-iot",
+    "storage_bucket": "mini-projet-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231193245420:android:bdeb084b0c85c0e1b157c9",
+        "android_client_info": {
+          "package_name": "com.example.rashminpc.firebase_arduino_android_demo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231193245420-i99htuuea2o0ip4a1bclqoqv2ebgjhni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rashminpc.firebase_arduino_android_demo_app",
+            "certificate_hash": "41267ccdb460725db071bdd3b398f641cc95522b"
+          }
+        },
+        {
+          "client_id": "231193245420-jsrsjf7qpaq5nuolnliat3qjgbt30hmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEjZuVgjXBds7kQ33vy6UHNEn3b_07k0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231193245420-jsrsjf7qpaq5nuolnliat3qjgbt30hmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231193245420:android:0d4bf6b1642c63b2b157c9",
+        "android_client_info": {
+          "package_name": "com.seb_pn.iot_mini_projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231193245420-h5mip07j46tql8e42kqea54udj2mocug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seb_pn.iot_mini_projet",
+            "certificate_hash": "f1bd189e4a777d3b745c2b04a68ebf819c63b31c"
+          }
+        },
+        {
+          "client_id": "231193245420-jsrsjf7qpaq5nuolnliat3qjgbt30hmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEjZuVgjXBds7kQ33vy6UHNEn3b_07k0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231193245420-jsrsjf7qpaq5nuolnliat3qjgbt30hmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
